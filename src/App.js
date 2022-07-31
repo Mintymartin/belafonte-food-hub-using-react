@@ -37,3 +37,36 @@ function App() {
   function handleCardClick(meal) {
     // console.log("Meal Name: ",Meal.name);
   }
+  return (
+    <div className="appContainer">
+        <Router>
+          <Header />
+          <Switch>
+            <Route path="/idMeal">
+              <div className="appContentContainer">
+                <MealDetail />
+              </div>
+            </Route>
+            <Route exact path="/create">
+              <div className="appContentContainer">
+                <NewMealForm addMeal={addMeal}/>
+              </div>
+            </Route>
+            <Route exact path="/meals" >
+              <div className="appContentContainer">
+                < MealList meals={meals} handleCardClick={handleCardClick} />
+              </div>
+            </Route>
+            <Route exact path="/">
+              <div className="appContentContainer">
+                <Home meals={meals} />
+              </div>
+            </Route>
+            <Route>
+              <NotFound />
+            </Route>
+
+          </Switch>
+        </Router>
+    </div>
+  )
