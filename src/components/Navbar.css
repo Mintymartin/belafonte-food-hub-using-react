@@ -1,0 +1,51 @@
+.appContainer {
+    display: grid;
+    height: 500px;
+    grid-template-columns: 1fr;
+}
+
+.navbarContainer {
+    width: 400px;
+    height: 100vh;
+    padding-block: 50px;
+    
+}
+
+.navbar-logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar-logo {
+    color: #7fc759;
+}
+
+.separator {
+    display: grid;
+    justify-content: end;
+    width: 1.5em;
+    border-bottom: 3px solid #e3e3e3;
+    margin: 1em 0;
+}
+
+.mealListContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    width: 100vw;
+    padding-block: 50px;
+    padding-inline: 150px;
+    grid-gap: 50px;
+}
+
+.card-img-top {
+    float: left;
+    width:  250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.container1 {
+    background: blue;
+}
+
