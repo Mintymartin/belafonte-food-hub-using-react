@@ -23,20 +23,21 @@ function Home({meals}) {
         }
     }
 
-    return (
-        <div className="dashboard-wrapper">
-            <div className="dashboard-left-wrapper" onClick={handleClick}>
-                <h1 className="centered">Create</h1>
-            </div>
-    
-            <div className="dashboard-right-component1" onClick={handleClick}>
-                <h1 className="centered">Explore</h1>
-            </div>
-    
-            <div className="dashboard-right-component2" onClick={handleClick}>
-                <h1 className="centered">Hungry?</h1>
-            </div>
+  return (
+    <div className="dashboard-wrapper">
+        <div className="dashboard-left-wrapper" onClick={handleClick}>
+            <h1 className="centered">Create</h1>
         </div>
-      )
-    }
-    export default Home
+
+        <div className="dashboard-right-component1" onClick={handleClick}>
+            <h1 className="centered">Explore</h1>
+        </div>
+
+        <div className="dashboard-right-component2" onClick={handleClick}>
+            <h1 className="centered">Hungry?</h1>
+        </div>
+    </div>
+  )
+}
+
+export default Home
