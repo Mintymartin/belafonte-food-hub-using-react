@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 function MealCard({meal, handleCardClick}) {
     const {strMeal, strArea, description, meallink} = meal;
+
     return (
         <Col>
         <Link to={`/meals/${meal.idMeal}`} >
@@ -28,3 +29,5 @@ function MealCard({meal, handleCardClick}) {
         </Col>
     );
 }
+
+export default MealCard;
