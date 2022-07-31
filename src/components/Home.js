@@ -39,3 +39,4 @@ function Home({meals}) {
         </div>
       )
     }
+    export default Home
