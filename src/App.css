@@ -4,3 +4,48 @@
     font-family: nunito, sans-serif;
     
 }
+
+.header {
+    border-bottom: 1px solid rgba(171, 189, 11, 0.568);
+    height: 70px;
+    background-color: #5ace4f;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+#root a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.appContentContainer {
+    display: grid;
+    height: 90vh;
+    place-items: center;
+   
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italicize {
+    font-style: italic;
+}
+
+.listItem {
+    padding-block: 10px;
+}
+
+.line-clamp3 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 10;
+    overflow: scroll;
+}
+
+.mealCardTitle {
+    height: 25px;
+    font-size: 50px;
+    font-weight: bold;
+}
