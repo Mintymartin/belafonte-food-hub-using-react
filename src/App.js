@@ -37,6 +37,7 @@ function App() {
   function handleCardClick(meal) {
     // console.log("Meal Name: ",Meal.name);
   }
+
   return (
     <div className="appContainer">
         <Router>
