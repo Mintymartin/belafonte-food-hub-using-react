@@ -1,9 +1,9 @@
 import React from 'react'
 import "../styles/Home.css"
-import { Link, useHistory } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Home({meals}) {
-    const history = useHistory();
+    const history = useNavigate();
 
     function handleClick(e) {
         switch (e.target.innerHTML) {

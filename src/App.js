@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import MealList from '../src/components/MealList';
 import Header from "../src/components/Header";
 import Home from "../src/components/Home";
@@ -42,7 +42,7 @@ function App() {
     <div className="appContainer">
         <Router>
           <Header />
-          <Switch>
+          <Routes>
             <Route path="/idMeal">
               <div className="appContentContainer">
                 <MealDetail />
@@ -67,7 +67,7 @@ function App() {
               <NotFound />
             </Route>
 
-          </Switch>
+          </Routes>
         </Router>
     </div>
   )
