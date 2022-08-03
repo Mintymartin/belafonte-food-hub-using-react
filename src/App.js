@@ -9,14 +9,14 @@ import NotFound from "../src/components/NotFound";
 import './App.css'
 import "../src/components/Navbar.css";
 
-const mealsAPI = "http://localhost:8004/meals/";
+const mealsAPI = "http://localhost:3000/meals/";
 
 
 function App() {
   const [meals, setMeals] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8004/meals/")
+    fetch("http://localhost:3000/meals/")
      .then(res => res.json())
      .then(data => setMeals(data))
   }, []);
@@ -40,35 +40,18 @@ function App() {
 
   return (
     <div className="appContainer">
+       <div className="appContentContainer">
         <Router>
-          <Header />
           <Routes>
-            <Route path="/idMeal">
-              <div className="appContentContainer">
-                <MealDetail />
-              </div>
-            </Route>
-            <Route exact path="/create">
-              <div className="appContentContainer">
-                <NewMealForm addMeal={addMeal}/>
-              </div>
-            </Route>
-            <Route exact path="/meals" >
-              <div className="appContentContainer">
-                < MealList meals={meals} handleCardClick={handleCardClick} />
-              </div>
-            </Route>
-            <Route exact path="/">
-              <div className="appContentContainer">
-                <Home meals={meals} />
-              </div>
-            </Route>
-            <Route>
-              <NotFound />
-            </Route>
-
+          <Route path="/" element={<Header />} />
+          <Route path="/idMeal" element={<MealDetail />} />
+          <Route path="/create" element={<NewMealForm addMeal={addMeal}/>} />
+          <Route path="/meals" element={<MealList meals={meals} handleCardClick={handleCardClick} />} />
+          <Route path="*" element={<NotFound />} />
+          <Route path="/" element={<Home meals={meals} />} />
           </Routes>
         </Router>
+    </div>
     </div>
   )
 }
