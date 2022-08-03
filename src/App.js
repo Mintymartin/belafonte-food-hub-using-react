@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
-import MealList from './MealList';
-import Header from "./Header";
-import Home from "./Home";
-import NewMealForm from './NewMealForm';
-import MealDetail from './MealDetail';
-import NotFound from './NotFound';
+import MealList from '../src/components/MealList';
+import Header from "../src/components/Header";
+import Home from "../src/components/Home";
+import NewMealForm from "../src/components/NewMealForm";
+import MealDetail from "../src/components/MealDetail";
+import NotFound from "../src/components/NotFound";
 import './App.css'
-import './Navbar.css'
+import "../src/components/Navbar.css";
 
 const mealsAPI = "http://localhost:8004/meals/";
 

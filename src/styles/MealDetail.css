@@ -1,0 +1,33 @@
+.mealDetailContainer {
+    display: grid;
+    padding-block: 50px;
+    width: 50vw;
+}
+
+.detail-summary {
+    display: flex;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 50px;
+}
+
+.mealDetailContainer img {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.mealDetailContainer .detailImage {
+    margin-right: 50px;
+}
+
+.mealDetailName {
+    font-weight: bolder;
+}
+
+.meal-info {
+    margin-top: 50px;
+}
+
+.ingredientsList {
+    margin-left: 25px;
+}
