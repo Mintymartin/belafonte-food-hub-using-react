@@ -41,7 +41,7 @@ Getting:
 ## How To Run It
 start server and npm start 
 ## Live Link
-Or you can access the web application directly via this [LINK.](link.com/)
+Or you can access the web application directly via this [LINK.](https://belafonte-food-hub-using-react-u4mzvtmfh-martinpouh.vercel.app/)
 *****
 
 ## Technologies Used
