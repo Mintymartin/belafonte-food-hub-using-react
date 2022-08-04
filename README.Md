@@ -14,9 +14,11 @@ Getting:
 ******
 
 ## SCREENSHOTS
-- ![Screenshot from 2022-06-26 21-33-24](https://user-images.githubusercontent.com/24671358/175829051-5c3bd3ed-01ab-4597-8d54-10bd83a9df6e.png)
-- ![Screenshot from 2022-06-26 21-33-34](https://user-images.githubusercontent.com/24671358/175829052-fb18cd3e-bdac-489b-867b-187a79a29d70.png)
-- ![Screenshot from 2022-06-26 21-33-51](https://user-images.githubusercontent.com/24671358/175829055-4038b828-29bf-4d39-bf07-8cd0ee8b2e51.png)
+![Screenshot from 2022-07-31 23-46-09](https://user-images.githubusercontent.com/24671358/182957142-f442418f-ca24-4a14-af61-ff88bbd1e706.png)
+![Screenshot from 2022-07-31 23-46-17](https://user-images.githubusercontent.com/24671358/182957154-20ae6ce4-1226-4ddf-84a6-60333b1b9216.png)
+![Screenshot from 2022-07-31 23-46-28](https://user-images.githubusercontent.com/24671358/182957159-683b2693-43d0-461a-9bde-de81dd133306.png)
+![Screenshot from 2022-07-31 23-46-36](https://user-images.githubusercontent.com/24671358/182957162-c0e47f70-a835-4730-a8ff-11dbb72ec0bf.png)
+
 
 
 ********
