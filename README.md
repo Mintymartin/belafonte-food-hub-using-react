@@ -1,59 +1,21 @@
-# Belafonte Food Hub Using React
-*****
-### Author : Martin Chege 26th July 2022
-****
-## Project Description
-Using a JSON server I came up with a list of meals that are available on a website: Belafonte Food Hub website that offers users a variety of meals  where one can scroll and learn how tocook the meal and add their own meal in the website.
+# Food Monger
+This is a food recipe single page website using the [Spoonacular API](https://spoonacular.com/food-api/)
 
-Getting:
-1.List of meals/dish.
-2.Name of the meal.
-3.Category: such as Soup or side dish.
-4.Origin of the meal.
-5.Add your meal
-******
+## User Story:
 
-## SCREENSHOTS
-![Screenshot from 2022-07-31 23-46-09](https://user-images.githubusercontent.com/24671358/182044780-3d6e25c0-03ef-4948-90f7-6a3508c5e567.png)
-![Screenshot from 2022-07-31 23-46-17](https://user-images.githubusercontent.com/24671358/182044782-fabf9d9d-53b3-4fc1-86de-fecb6debde21.png)
-![Screenshot from 2022-07-31 23-46-28](https://user-images.githubusercontent.com/24671358/182044784-2b816c76-e374-45e5-8127-1cea9a8b05d6.png)
-![Screenshot from 2022-07-31 23-46-36](https://user-images.githubusercontent.com/24671358/182044786-48f6e3a0-98c5-4dc8-93fb-4cd13308239c.png)
+- Land on a home page where you are prompted to sign in or sign up.
+- Navigate through the Navbar to viewing recipes, creating, favorites, shopping list
+- Select recipes for "this" week that generates a shopping list based on ingredients
+- In the shopping list view, a user will be able to remove ingredients they may have already have in their fridge or pantry.
+- Create a new account that has a users favorite receipes and created recipes
+- Optional: add a recipes rating
 
+## Routes:
+/                         <Home />
+/recipes/new              <RecipeForm />
+/recipes/:id/edit         <RecipeEditForm />
+/recipes/:id              <RecipeDetail />
+/recipes                  <RecipeList />
+/recipes/favorites        <RecipeFavorites />
 
-********
-## SetUp Instruction
-### Requirements
-* [HTML](lang Url)
-* Text editor eg [Visual Studio Code](https://code.visualstudio.com/download)
-
-
-### Getting Files
-* Fork the repo
-- Create a new branch in your terminal (git checkout -b improve-feature)
-- Install the prerequisites.
-- Make appropriate changes in file(s)
-- Run the server to see the changes
-- Add the changes and commit them (git commit -am "Improve App")
-- Push to the branch (git push origin improve-app)
-- Create a Pull request
-* Open the folder location on terminal and use the following command to run app:
-
-## How To Run It
-start server and npm start 
-## Live Link
-Or you can access the web application directly via this [LINK.](https://belafonte-food-hub-using-react-u4mzvtmfh-martinpouh.vercel.app/)
-*****
-
-## Technologies Used
-1. HTML
-2. CSS
-3. JavaScript
-4. React Library
-
-*****
-## Contact Information
-* Email : martin.chege@student.moringaschool.com
-*****
-## [License](LICENSE)
-MIT License
-Copyright (c) 2022 Martin Chege
+![Screen Shot 2022-03-28 at 10 39 39 AM](https://user-images.githubusercontent.com/37206824/160457346-68b1ceaf-d1a8-48d5-8327-c45a0c7c16e3.png)

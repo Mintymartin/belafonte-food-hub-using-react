@@ -10,7 +10,7 @@ function Header() {
     <Navbar className="header">
         <Container>
             <Link to={"/"}>
-                <Navbar.Brand>Belafonte-Food-Hub
+                <Navbar.Brand>Belafonooote-Food-Hub
 </Navbar.Brand>
             </Link>
 

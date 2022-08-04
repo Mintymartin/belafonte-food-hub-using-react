@@ -39,8 +39,8 @@ function App() {
   }
 
   return (
-    <div className="appContainer">
-       <div className="appContentContainer">
+    <div className="appContainerContainer">
+      
         <Router>
           <Routes>
           <Route path="/" element={<Header />} />
@@ -51,7 +51,6 @@ function App() {
           <Route path="/" element={<Home meals={meals} />} />
           </Routes>
         </Router>
-    </div>
     </div>
   )
 }
