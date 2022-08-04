@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { Form, Button, InputGroup } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import "../styles/NewMealForm.css"
 
 
 function NewMealForm({ addMeal }) {
-  const history = useNavigate();
+  const history = useHistory();
   const [validated, setValidated] = useState(false);
   const [mealFormData, setMealFormData] = useState({
     strMeal: "",

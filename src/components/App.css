@@ -20,9 +20,8 @@
 
 .appContentContainer {
     display: grid;
-    height: 190vh;
+    height: 90vh;
     place-items: center;
-
    
 }
 

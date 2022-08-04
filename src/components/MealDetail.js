@@ -5,7 +5,7 @@ import { PlusCircleFill } from 'react-bootstrap-icons';
 import NotFound from "./NotFound"
 import "../styles/MealDetail.css";
 
-const mealAPI = "http://localhost:3000/meals/";
+const mealAPI = "http://localhost:8004/meals/";
 
 function MealDetail() {
     const [meal, setMeal] = useState({});
